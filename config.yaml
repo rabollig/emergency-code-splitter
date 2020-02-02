@@ -1,0 +1,14 @@
+---
+masterFilename: secret.txt
+passwordLength: 24
+requiredPasswords: 3
+
+trustedIndividuals:
+  - Kermit
+  - Piggy
+  - Ralph
+  - Gonzo
+  - Fozzy
+
+
+

@@ -1,0 +1,7 @@
+{
+    "require": {
+        "symfony/yaml": "^5.0",
+        "stephenhill/base58": "^1.1",
+        "lunkkun/permutations-generator": "^2.0"
+    }
+}

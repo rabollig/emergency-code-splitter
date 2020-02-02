@@ -1,0 +1,38 @@
+{
+    "name": "lunkkun/permutations-generator",
+    "description": "A PHP Generator that generates all possible permutations for a given array of values.",
+    "keywords": [
+        "php",
+        "generator",
+        "cache",
+        "iterator",
+        "permutations"
+    ],
+    "homepage": "https://github.com/lunkkun/php-permutations-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luuk Linders",
+            "email": "lunkkun@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lunkkun\\PermutationsGenerator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lunkkun\\PermutationsGenerator\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
